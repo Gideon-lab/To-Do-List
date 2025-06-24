@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="./to_do_list.css">
+</head>
+<body>
+  <div class="container">
+    <h2>To-Do List</h2>
+    <input type="text" id="taskInput" placeholder="Add a new task...">
+    <input type="date" id="dateInput">
+    <select id="categoryInput">
+      <option value="daily">Daily</option>
+      <option value="project">Project</option>
+      <option value="hobby">Hobby</option>
+      <option value="tasks">Tasks</option>
+    </select>
+    <button id="addTaskBtn">Add Task</button>
+    <ul id="taskList"></ul>
+  </div>
+  <script src="./to_do_list.js"></script>
+</body>
+</html>
